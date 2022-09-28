@@ -1,3 +1,26 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
+.muahaha{
+    color:crimson;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+title {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
