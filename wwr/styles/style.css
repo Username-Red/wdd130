@@ -28,7 +28,7 @@ nav a:hover {
 
 }
 
-#hero-img {
+hero-img {
     width: 100%;
 }
 
@@ -69,7 +69,8 @@ header {
 }
 
 #background {
-    background-color: red;
+    height: 725px;
+    background-color: tan;
 
 }
 
