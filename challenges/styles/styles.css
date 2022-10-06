@@ -1,0 +1,57 @@
+:root {
+    --heading-font: "Roboto";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
+body {
+    background: pink;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 160%; 
+    color: white;
+    
+}
+
+h1:hover {
+    color: black;
+}
+
+title {
+    font-family: sans-serif, Roboto, Helvetica;
+}
+
+h1 {
+    font-family: sans-serif, Roboto, Helvetica;
+}
+
+main p {
+    font-family: sans-serif, Roboto, Helvetica;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150%;
+}
+
+h2 {
+    color: white;
+    font-size: 250%;
+    width: 30%;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+
+
+img {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+
+* {
+    border: 2px solid blue
+}

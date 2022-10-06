@@ -3,12 +3,57 @@
     line-height: 1.5em;
 }
 
-
-body {
+h1 {
     text-align: center;
+}
+
+nav, footer {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+a {
+    color: white;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+footer p {
+    
+    text-align: center;
+    margin: 0 auto;
 }
 
 #active {
     background-color: white;
     color: steelblue;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+main p {
+    margin: 0 auto;
+    width: 80%;
+}
+p {
+    text-align: center;
+    width: 80%;
+}
+
+
+a {
+    font-size: 1.5em;
+}
+
+* {
+    border: 2px solid blue
 }
