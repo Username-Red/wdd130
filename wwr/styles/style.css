@@ -20,19 +20,22 @@ nav a:hover {
 }
 
 .home-title {
+    text-align: center;
     color: #cc7c3c;
 }
 
 #hero-msg h1, #hero-msg h4 {
+    display: block;
     text-align: center;
 
 }
 
-hero-img {
+#hero-img {
     width: 100%;
 }
 
 h4 {
+    text-align: center;
     color: #ab5723;
 }
 
