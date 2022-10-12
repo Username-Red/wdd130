@@ -5,6 +5,12 @@
     margin: 0 auto;
 }
 
+.icon {
+    width: 80px;
+}
+
+
+
 nav a {
     text-decoration: none;
     background-color: #8dcce2;

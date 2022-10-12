@@ -1,0 +1,27 @@
+
+#background {
+    margin: 0 auto;
+    
+    width: 100%
+    
+    
+}
+
+#background-col {
+    height: 500;
+}
+
+footer {
+    background-color: grey;
+}
+
+footer img {
+    border-radius: 100%;
+    
+    border: 30px solid black;
+    width: 30em;
+}
+
+body {
+    background-color: grey;
+}
