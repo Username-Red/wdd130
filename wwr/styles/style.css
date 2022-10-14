@@ -139,13 +139,13 @@ main section img {
 
 .msg h2 {
    
-    color: white;
+    color: #ab5723;
 }
 
 .msg p {
     padding-bottom: 15px;
     font-size: .8em;
-    color: #cc7c3c;
+    color: white;
     line-height: 1.5em;
 
 }
