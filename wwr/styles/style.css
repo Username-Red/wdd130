@@ -43,7 +43,7 @@ nav a:hover {
 .home-title {
     margin-top: 10px;
     font-size: 2em;
-    font-family: Rock Salt, Helvetica, sans-serif, serif;
+    font-family: "Rock Salt", Helvetica, sans-serif, serif;
     text-align: center;
     color: #cc7c3c;
 }
@@ -75,7 +75,7 @@ main section {
 
 body {
     font-size: 22px;
-    font-family: Roboto, Helvetica, sans-serif, serif;
+    font-family: "Roboto", Helvetica, sans-serif, serif;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -154,7 +154,7 @@ footer {
     margin-top: 200px;
     padding: 25px 50px;
     background-color: #8dcce2;
-    font-family: Roboto, Helvetica, sans-serif, serif;
+    font-family: "Roboto", Helvetica, sans-serif, serif;
 
 }
 
