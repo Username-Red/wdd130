@@ -140,6 +140,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #8dcce2;
+    opacity: .6;
 }
 
 .logo {
