@@ -94,7 +94,7 @@
     grid-row: 1/2;
     margin-top: 100px;
 }
-
+opacity
 
 #hero-box {
     grid-column: 1/4;
@@ -140,7 +140,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #8dcce2;
-    opacity: .6;
+
 }
 
 .logo {
@@ -205,7 +205,7 @@ nav a:hover {
 }
 
 #background {
-    height: 725px;
+    height: 100%;
     background-color: tan;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -295,4 +295,38 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
+}
+
+
+/* page 2 css */
+
+#p2-heading-div {
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 10px solid #cc7c3c;
+    background-color: #8dcce2;
+    text-align: center;
+    color: white;
+
+}
+
+#p2-paragraph {
+    margin: 1%;
+}
+
+#p2-img {
+    margin: 1%;
+    width: 45%;
+    float: right;
+}
+
+#p2-footer {
+    margin-top: 10%;
+    padding: 25px 50px;
+    background-color: #8dcce2;
+    font-family: "Roboto", Helvetica, sans-serif, serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
