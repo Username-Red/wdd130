@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #071F56;
+    --secondary-color: #FFD321; 
+    --accent1-color: black;
+    --accent2-color: white;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Share Tech Mono";
+    --paragraph-font: Share Tech, Lato, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #071F56 ;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #071F56 ; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #071F56   ;
+    --nav-link-color: #071F56 ;
+    --nav-background-color: #FFD321;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #071F56 ;
+  }
+
+h1, h2, a {
+    font-family: var(--heading-font);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: var(--accent2-color);
+}
+
+li a:visited {
+    color: var(--primary-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    background-image: url("images/guys\ playing\ cards.png");
+    background-size: 100%;
+    background-color: #1c1d25;
+    /*vh is viewpoint height, meaning it will take the initial 
+    screen size and use the number prefix as a percentage to determine the height of the selector*/
+    height: 93vh;
+
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.hero-text-wrap {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-text {
+    opacity: 100%;
+    margin-top: 200px;
+    color: var(--primary-color);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 120px;
+    margin: 10px;
+}
+
+ul {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+li {
+    
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    border-radius: 3px ;
+    text-decoration: none;
+}
+
+li:hover, .button:hover {
+    background-color: var(--secondary-color);
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 250px;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 30px;
+    
+}
+
+/* main body */
+.info {
+    margin:10px;
+}
+.welcome-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.deskfront {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: 550px;
+    float: right;
+}
+
+.info-text {
+    color: var(--accent1-color);
+    font-size: 30px;
+}
+
+
+
+/* footer */
+
+footer {
+    color: var(--accent1-color);
+    display: flex;
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    height: 150px
+}
+
+footer h1 {
+
+    margin-top: 55px;
+}
+
+footer a {
+    margin:5px;
+    height: 25px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.foot-links a:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.foot-links {
+    color: white;
+    display: flex;
+    margin-top: 55px;
+    margin-left: 40px;
+    font-size:20px;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.socials {
+    display: flex;
+    position: absolute;
+    right: 16px;
+    margin-top: 35px;
+    width: 300px;
+    justify-content: space-around;
+}
