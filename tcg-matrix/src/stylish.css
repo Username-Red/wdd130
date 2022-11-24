@@ -175,6 +175,7 @@ footer a {
     height: 25px;
     padding:5px;
     border-radius: 10px;
+    color: var(--primary-color);
 }
 
 .foot-links a:hover {
