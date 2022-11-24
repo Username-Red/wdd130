@@ -135,6 +135,7 @@ li:hover, .button:hover {
 /* main body */
 .info {
     margin:10px;
+    margin-bottom: 30px;
 }
 .welcome-title {
     text-align: center;
@@ -161,7 +162,7 @@ li:hover, .button:hover {
 footer {
     color: var(--accent1-color);
     display: flex;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: var(--primary-color);
     height: 150px
 }
