@@ -72,6 +72,15 @@ body {
     font-size: 30px;
 }
 
+.banner{
+    font-size: 30px;
+    color: var(--accent1-color);
+    display: flex;
+    background-color: var(--primary-color);
+    height: 150px
+
+}
+
 .hero-text-wrap {
     background-color: rgba(255, 255, 255, 0.6);
 }
@@ -153,6 +162,53 @@ li:hover, .button:hover {
 .info-text {
     color: var(--accent1-color);
     font-size: 30px;
+}
+
+/* main body FAQ */
+
+.faq-headline {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.victor {
+    border-radius: 50px;
+    border: solid black 3px;
+    margin-right: 15px;
+    margin-left: 15px;
+    float: right;
+    width: 500px;
+}
+
+.qanda-text {
+    margin: 15px;
+    font-size: 22px;
+}
+
+.add-question {
+    margin-top: 150px;
+    border: solid black 2px;
+    background-image: url("images/champion.jpg");
+    background-size: 100%;
+    height: 750px;
+    
+}
+
+.button-p2 {
+    background-color: var(--accent2-color);
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+    font-size: 80px;
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 550px;
+    
+    
+}
+
+.button-p2:hover {
+    background-color: var(--secondary-color);
 }
 
 
