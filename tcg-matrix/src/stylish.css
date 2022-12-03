@@ -211,6 +211,59 @@ li:hover, .button:hover {
     background-color: var(--secondary-color);
 }
 
+/* Why tcg matrix body */
+
+.why-info {
+    text-align: center;
+}
+
+.explanation {
+    margin-top: 30px;
+    background-image: url("images/pokemon-cards-pile-header.jpg");
+    background-size: 100%;
+    height: 650px;
+    border: solid #ffffff 1px;
+}
+
+.translucent-box {
+    border: solid rgba(255, 255, 255, 0.6) 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 95%;
+    width: 97%;
+    margin-left: 1.25%;
+    margin-top: 1.25%;
+}
+
+.translucent-box p {
+    font-size: 30px;
+}
+
+.lower-image {
+    border: solid #ffffff 1px;
+    margin-top: 150px;
+    margin-left: 2.5%;
+    background-image: url("images/yugioh\ protagonists.jpg");
+    background-size: 100%;
+    width: 95%;
+    height: 500px;
+}
+
+.button-p3 {
+    background-color: var(--accent2-color);
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+    font-size: 80px;
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 300px;
+
+}
+
+.button-p3:hover {
+    background-color: var(--secondary-color);
+}
+
 
 
 /* footer */
