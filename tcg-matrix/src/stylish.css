@@ -264,6 +264,33 @@ li:hover, .button:hover {
     background-color: var(--secondary-color);
 }
 
+/* find games */
+
+/* .FR-main {
+    border: solid #1c1d25 2px;
+} */
+
+.welcome-title p {
+    font-size: 40px;
+
+}
+
+.FR-main a img{
+    width: 23%;
+    margin: 60px;
+    margin-left: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+
+
+
+.FR-main a img:hover{
+    background-color: #FFD321;
+    
+}
+
 
 
 /* footer */
