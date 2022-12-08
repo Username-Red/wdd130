@@ -280,20 +280,43 @@ li:hover, .button:hover {
 
 /* find games */
 
-/* .FR-main {
-    border: solid #1c1d25 2px;
-} */
+.FR-main {
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.info-box {
+    border-radius: 10%;
+    padding: 0 auto;
+    justify-content: space-around;
+    width: 60%;
+    height: 50%;
+    align-self: center;
+}
+
+.top-box{
+    display: flex;
+}
+
+.bottom-box {
+    display: flex;
+}
+
+.info-box:hover {
+    background-color: #FFD321;
+}
 
 .welcome-title p {
     font-size: 40px;
 
 }
 
+
+
 .FR-main a img{
-    width: 23%;
-    margin: 60px;
-    margin-left: 30px;
-    padding: 15px;
+    width: 90%;
+    margin: 5%;
     border-radius: 30px;
     
 }
